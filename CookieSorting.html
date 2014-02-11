@@ -13,15 +13,36 @@
 			 * One of my favorites
 			 * And one of the rest
 			 */
-			
-			var myCookies = [{"name":"Oreo", "shape":"round"}, 
-							{"name":"chipsAhoy", "shape":"round"}, 
-							{"name":"Lorna Doone", "shape":"square"}, 
-							{"name":"Fig Newton","shape":"square"}];
-			
-			console.log(myCookies);
-			
-			
+				var myCookies = [{
+					"name" : "Oreo",
+					"shape" : "round"
+				}, {
+					"name" : "chipsAhoy",
+					"shape" : "round"
+				}, {
+					"name" : "Lorna Doone",
+					"shape" : "square"
+				}, {
+					"name" : "Fig Newton",
+					"shape" : "square"
+				}];
+
+				console.log(myCookies);
+				
+				//These are the lists I will sort my cookies into
+				
+				var myFaves = [];
+				var theRest = [];
+				
+				//For every item in my cookie list, check it's shape. If it's round, add to myFaves, otherwise add to theRest
+				
+				for(var i=0; i<4; i++){
+					console.log(i);
+					var currentCookie = myCookies [i];
+					console.log(currentCookie);
+				}
+
+
 		</script>
 		
 		
